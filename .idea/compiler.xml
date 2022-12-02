@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="WiringBeansUsingMethodParameters" />
+        <module name="InjectingBeanswithAutowiring" />
         <module name="BeanCreation" />
         <module name="PrimaryAnnotation" />
         <module name="CustomNameToBean" />

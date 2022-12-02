@@ -1,0 +1,42 @@
+package org.springlearning.beans;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+
+@Component
+public class Person {
+
+    private String name;
+    private Vehicle vehicle;
+
+    @Autowired
+    public Person(Vehicle vehicle){
+        System.out.println("Person Constructor called");
+        this.vehicle = vehicle;
+    }
+
+    @PostConstruct
+    public void initialize(){
+        this.name = "Hi-man";
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+
+}

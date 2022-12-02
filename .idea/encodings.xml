@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/ComponentAnnotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CustomNameToBean/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CustomNameToBean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InjectingBeanswithAutowiring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InjectingBeanswithAutowiring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NoUniqueBeanCreation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NoUniqueBeanCreation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NoUniqueBeanExecption/src/main/java" charset="UTF-8" />

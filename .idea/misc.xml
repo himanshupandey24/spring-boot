@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/WiringBeans/pom.xml" />
         <option value="$PROJECT_DIR$/WiringBeansUsingMethodCalls/pom.xml" />
         <option value="$PROJECT_DIR$/WiringBeansUsingMethodParameters/pom.xml" />
+        <option value="$PROJECT_DIR$/InjectingBeanswithAutowiring/pom.xml" />
       </list>
     </option>
   </component>
