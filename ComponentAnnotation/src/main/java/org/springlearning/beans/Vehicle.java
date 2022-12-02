@@ -2,6 +2,7 @@ package org.springlearning.beans;
 
 import org.springframework.stereotype.Component;
 
+//@Component is a generic stereotype annotation
 @Component
 public class Vehicle {
     private String name;
