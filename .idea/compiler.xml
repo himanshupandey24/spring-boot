@@ -16,6 +16,7 @@
         <module name="ComponentAnnotation" />
         <module name="Programmatically_adding_beans_to_Spring_Context" />
         <module name="XMLConfigurationOfBeans" />
+        <module name="WiringBeans" />
         <module name="PostConstruct_PreDestroy_Annotation" />
       </profile>
     </annotationProcessing>
