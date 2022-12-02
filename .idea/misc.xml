@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/CustomNameToBean/pom.xml" />
         <option value="$PROJECT_DIR$/PrimaryAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/ComponentAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/PostConstruct_PreDestroy_Annotation/pom.xml" />
       </list>
     </option>
   </component>

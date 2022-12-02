@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/NoUniqueBeanCreation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NoUniqueBeanExecption/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NoUniqueBeanExecption/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PostConstruct_PreDestroy_Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PostConstruct_PreDestroy_Annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PrimaryAnnotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PrimaryAnnotation/src/main/resources" charset="UTF-8" />
   </component>

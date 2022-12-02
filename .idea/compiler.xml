@@ -14,6 +14,7 @@
         <module name="ComponentAnnotation" />
         <module name="PrimaryAnnotation" />
         <module name="CustomNameToBean" />
+        <module name="PostConstruct_PreDestroy_Annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
