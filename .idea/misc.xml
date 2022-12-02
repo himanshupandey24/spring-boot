@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/PrimaryAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/ComponentAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/PostConstruct_PreDestroy_Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/Programmatically_adding_beans_to_Spring_Context/pom.xml" />
       </list>
     </option>
   </component>
