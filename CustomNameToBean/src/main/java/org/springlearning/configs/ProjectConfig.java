@@ -27,14 +27,14 @@ public class ProjectConfig {
         return vehicle;
     }
 
-    @Bean(name = "bmwVehicle")
+    @Bean(value = "bmwVehicle")
     Vehicle vehicle2(){
         Vehicle vehicle = new Vehicle();
         vehicle.setName("BMW");
         return vehicle;
     }
 
-    @Bean(name = "hondaVehicle")
+    @Bean("hondaVehicle")
     Vehicle vehicle3(){
         Vehicle vehicle = new Vehicle();
         vehicle.setName("Honda");
