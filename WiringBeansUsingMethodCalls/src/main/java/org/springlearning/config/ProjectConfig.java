@@ -8,7 +8,6 @@ import org.springlearning.beans.Vehicle;
 
 @Configuration
 public class ProjectConfig {
-
     @Bean
     public Vehicle vehicle(){
         Vehicle vehicle = new Vehicle();
@@ -21,14 +20,13 @@ public class ProjectConfig {
     Vehicle, by invoking the vehicle() bean method from person() bean method.
     Spring will make sure to have only 1 vehicle bean is created and also vehicle bean will
     be created first always as person bean has dependency on it.
-    */
-
+    Not a recommended way
+    * */
     @Bean
-    public Person getPerson(){
+    public Person person(){
         Person person = new Person();
-        person.setName("Vishnu");
+        person.setName("Lucy");
         person.setVehicle(vehicle());
         return person;
     }
 }
-

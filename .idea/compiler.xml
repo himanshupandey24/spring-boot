@@ -15,13 +15,14 @@
         <module name="NoUniqueBeanExecption" />
         <module name="ComponentAnnotation" />
         <module name="Programmatically_adding_beans_to_Spring_Context" />
+        <module name="WiringBeansUsingMethodCalls" />
         <module name="XMLConfigurationOfBeans" />
-        <module name="WiringBeans" />
         <module name="PostConstruct_PreDestroy_Annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="NoUniqueBeanCreation" target="1.5" />
+      <module name="WiringBeansWithMethodCalls" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

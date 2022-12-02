@@ -4,7 +4,7 @@ public class Vehicle {
     private String name;
 
     public Vehicle(){
-        System.out.println("Vehicle default constructor called by Spring");
+        System.out.println("Vehicle Constructor called");
     }
 
     public String getName() {
@@ -17,6 +17,6 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle name is - " + name;
+        return "Vehicle name is : " + name;
     }
 }

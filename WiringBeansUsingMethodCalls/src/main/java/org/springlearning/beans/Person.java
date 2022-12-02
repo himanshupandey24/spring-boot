@@ -1,11 +1,12 @@
 package org.springlearning.beans;
 
 public class Person {
+
     private String name;
     private Vehicle vehicle;
 
     public Person(){
-        System.out.println("Person default constructor called by Spring");
+        System.out.println("Person Constructor called");
     }
 
     public String getName() {
