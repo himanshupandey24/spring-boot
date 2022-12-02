@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/BeanCreation/pom.xml" />
         <option value="$PROJECT_DIR$/NoUniqueBeanExecption/pom.xml" />
         <option value="$PROJECT_DIR$/CustomNameToBean/pom.xml" />
+        <option value="$PROJECT_DIR$/PrimaryAnnotation/pom.xml" />
       </list>
     </option>
   </component>

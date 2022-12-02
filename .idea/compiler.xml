@@ -11,6 +11,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BeanCreation" />
         <module name="NoUniqueBeanExecption" />
+        <module name="PrimaryAnnotation" />
         <module name="CustomNameToBean" />
       </profile>
     </annotationProcessing>
