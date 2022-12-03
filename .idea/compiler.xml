@@ -20,6 +20,7 @@
         <module name="WiringBeansUsingMethodCalls" />
         <module name="XMLConfigurationOfBeans" />
         <module name="PostConstruct_PreDestroy_Annotation" />
+        <module name="AutowiringTypes_QualifierAnnotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
