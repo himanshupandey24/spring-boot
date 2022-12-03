@@ -19,6 +19,7 @@
         <module name="AutowiringTypes_QualifierAnnotation" />
         <module name="WiringBeansUsingMethodParameters" />
         <module name="BeanCreation" />
+        <module name="BeanScopeInSpring" />
         <module name="CustomNameToBean" />
         <module name="ComponentAnnotation" />
         <module name="PostConstruct_PreDestroy_Annotation" />
