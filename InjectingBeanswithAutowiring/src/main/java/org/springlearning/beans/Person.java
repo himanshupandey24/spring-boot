@@ -10,9 +10,18 @@ import javax.annotation.PostConstruct;
 public class Person {
 
     private String name;
+
+    /*
+    The @Autowired annotation marks on a field, constructor, Setter method
+    is used to auto-wire the beans that is ‘injecting beans'(Objects) at runtime
+    by Spring Dependency Injection mechanism
+    * */
+    /*@Autowired*/
+
+    //@Autowired
     private Vehicle vehicle;
 
-    @Autowired
+    @Autowired(required = false) // by default, it is true
     public Person(Vehicle vehicle){
         System.out.println("Person Constructor called");
         this.vehicle = vehicle;
@@ -35,6 +44,7 @@ public class Person {
         return vehicle;
     }
 
+    //@Autowired
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
